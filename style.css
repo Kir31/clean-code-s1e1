@@ -22,7 +22,8 @@
 
 @media (max-width: 768px) {
 
-  .header { text-align: center;
+  .header { 
+    text-align: center;
   }
 
 }
@@ -48,15 +49,21 @@
   padding: 0px;
 }
 
-.section__item, .section__heading {
+.section__item,
+.section__heading {
   list-style: none;
 }
 
-.section__input,.section__btn, .section__btn_delete, .section__btn_edit{
+.section__input,
+.section__btn, 
+.section__btn_delete, 
+.section__btn_edit {
   outline: none;
 }
 
-.section__btn, .section__btn_delete, .section__btn_edit {
+.section__btn, 
+.section__btn_delete, 
+.section__btn_edit {
   background: none;
   border: 0px;
   color: #888;
@@ -72,8 +79,7 @@
 }
 
 /* Heading */
-.section__heading
- {
+.section__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -115,7 +121,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
