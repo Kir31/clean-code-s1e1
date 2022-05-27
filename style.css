@@ -79,7 +79,8 @@
 }
 
 /* Heading */
-.section__heading {
+.section__heading,
+.add-item__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
