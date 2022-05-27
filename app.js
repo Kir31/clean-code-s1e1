@@ -36,6 +36,7 @@ var createNewTaskElement=function(taskString){
     label.className='section__label task';
 
     //Each elements, needs appending
+    listItem.className = 'section__item';
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.className="section__input task";
@@ -45,6 +46,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="section__btn_delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.className = 'section__btn-img';
     deleteButton.appendChild(deleteButtonImg);
 
 
